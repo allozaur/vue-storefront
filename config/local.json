@@ -5,7 +5,7 @@
   },
   "elasticsearch": {
     "httpAuth": "",
-    "host": "http://localhost:8080/api/catalog",
+    "host": "https://dwshop.pl/api/catalog",
     "index": "vue_storefront_catalog",
     "csrTimeout": 5000,
     "ssrTimeout": 1000
@@ -34,7 +34,7 @@
       "name": "German Store",
       "url": "/de",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "https://dwshop.pl/api/catalog",
         "index": "vue_storefront_catalog_de"
       },
       "tax": {
@@ -61,7 +61,7 @@
       "name": "Italian Store",
       "url": "/it",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "https://dwshop.pl/api/catalog",
         "index": "vue_storefront_catalog_it"
       },
       "tax": {
@@ -221,21 +221,21 @@
     "synchronize_totals": true,
     "setCustomProductOptions": true,
     "setConfigurableProductOptions": true,
-    "create_endpoint": "http://localhost:8080/api/cart/create?token={{token}}",
-    "updateitem_endpoint": "http://localhost:8080/api/cart/update?token={{token}}&cartId={{cartId}}",
-    "deleteitem_endpoint": "http://localhost:8080/api/cart/delete?token={{token}}&cartId={{cartId}}",
-    "pull_endpoint": "http://localhost:8080/api/cart/pull?token={{token}}&cartId={{cartId}}",
-    "totals_endpoint": "http://localhost:8080/api/cart/totals?token={{token}}&cartId={{cartId}}",
-    "paymentmethods_endpoint": "http://localhost:8080/api/cart/payment-methods?token={{token}}&cartId={{cartId}}",
-    "shippingmethods_endpoint": "http://localhost:8080/api/cart/shipping-methods?token={{token}}&cartId={{cartId}}",
-    "shippinginfo_endpoint": "http://localhost:8080/api/cart/shipping-information?token={{token}}&cartId={{cartId}}",
-    "collecttotals_endpoint": "http://localhost:8080/api/cart/collect-totals?token={{token}}&cartId={{cartId}}",
-    "deletecoupon_endpoint": "http://localhost:8080/api/cart/delete-coupon?token={{token}}&cartId={{cartId}}",
-    "applycoupon_endpoint": "http://localhost:8080/api/cart/apply-coupon?token={{token}}&cartId={{cartId}}"
+    "create_endpoint": "https://dwshop.pl/api/cart/create?token={{token}}",
+    "updateitem_endpoint": "https://dwshop.pl/api/cart/update?token={{token}}&cartId={{cartId}}",
+    "deleteitem_endpoint": "https://dwshop.pl/api/cart/delete?token={{token}}&cartId={{cartId}}",
+    "pull_endpoint": "https://dwshop.pl/api/cart/pull?token={{token}}&cartId={{cartId}}",
+    "totals_endpoint": "https://dwshop.pl/api/cart/totals?token={{token}}&cartId={{cartId}}",
+    "paymentmethods_endpoint": "https://dwshop.pl/api/cart/payment-methods?token={{token}}&cartId={{cartId}}",
+    "shippingmethods_endpoint": "https://dwshop.pl/api/cart/shipping-methods?token={{token}}&cartId={{cartId}}",
+    "shippinginfo_endpoint": "https://dwshop.pl/api/cart/shipping-information?token={{token}}&cartId={{cartId}}",
+    "collecttotals_endpoint": "https://dwshop.pl/api/cart/collect-totals?token={{token}}&cartId={{cartId}}",
+    "deletecoupon_endpoint": "https://dwshop.pl/api/cart/delete-coupon?token={{token}}&cartId={{cartId}}",
+    "applycoupon_endpoint": "https://dwshop.pl/api/cart/apply-coupon?token={{token}}&cartId={{cartId}}"
   },
   "products": {
     "useShortCatalogUrls": false,
-    "useMagentoUrlKeys": false,
+    "useMagentoUrlKeys": true,
     "setFirstVarianAsDefaultInURL": false,
     "configurableChildrenStockPrefetchStatic": false,
     "configurableChildrenStockPrefetchDynamic": false,
@@ -247,7 +247,7 @@
     "clearPricesBeforePlatformSync": false,
     "waitForPlatformSync": false,
     "setupVariantByAttributeCode": true,
-    "endpoint": "http://localhost:8080/api/product",
+    "endpoint": "https://dwshop.pl/api/product",
     "defaultFilters": [
       "color",
       "size",
@@ -271,14 +271,14 @@
     }
   },
   "orders": {
-    "endpoint": "http://localhost:8080/api/order",
+    "endpoint": "https://dwshop.pl/api/order",
     "payment_methods_mapping": {},
     "offline_orders": {
       "automatic_transmission_enabled": false,
       "notification": {
         "enabled": true,
-        "title": "Order waiting!",
-        "message": "Click here to confirm the order that you made offline.",
+        "title": "Zamówienie oczekuje!",
+        "message": "Kliknij aby potwierdzić zamówienie offline.",
         "icon": "/assets/logo.png"
       }
     }
@@ -303,33 +303,33 @@
   },
   "users": {
     "autoRefreshTokens": true,
-    "endpoint": "http://localhost:8080/api/user",
-    "history_endpoint": "http://localhost:8080/api/user/order-history?token={{token}}",
-    "resetPassword_endpoint": "http://localhost:8080/api/user/reset-password",
-    "changePassword_endpoint": "http://localhost:8080/api/user/change-password?token={{token}}",
-    "login_endpoint": "http://localhost:8080/api/user/login",
-    "create_endpoint": "http://localhost:8080/api/user/create",
-    "me_endpoint": "http://localhost:8080/api/user/me?token={{token}}",
-    "refresh_endpoint": "http://localhost:8080/api/user/refresh"
+    "endpoint": "https://dwshop.pl/api/user",
+    "history_endpoint": "https://dwshop.pl/api/user/order-history?token={{token}}",
+    "resetPassword_endpoint": "https://dwshop.pl/api/user/reset-password",
+    "changePassword_endpoint": "https://dwshop.pl/api/user/change-password?token={{token}}",
+    "login_endpoint": "https://dwshop.pl/api/user/login",
+    "create_endpoint": "https://dwshop.pl/api/user/create",
+    "me_endpoint": "https://dwshop.pl/api/user/me?token={{token}}",
+    "refresh_endpoint": "https://dwshop.pl/api/user/refresh"
   },
   "stock": {
     "synchronize": true,
     "allowOutOfStockInCart": true,
-    "endpoint": "http://localhost:8080/api/stock"
+    "endpoint": "https://dwshop.pl/api/stock"
   },
   "images": {
-    "baseUrl": "http://localhost:8080/img/",
+    "baseUrl": "https://dwshop.pl/img/",
     "productPlaceholder": "/assets/placeholder.jpg"
   },
   "install": {
     "is_local_backend": true,
-    "backend_dir": "../vue-storefront-api"
+    "backend_dir": "../api.dwshop.pl"
   },
   "demomode": false,
   "tax": {
     "defaultCountry": "PL",
     "defaultRegion": "",
-    "sourcePriceIncludesTax": false,
+    "sourcePriceIncludesTax": true,
     "calculateServerSide": true
   },
   "shipping": {
@@ -339,8 +339,8 @@
         "method_code": "flatrate",
         "carrier_code": "flatrate",
         "amount": 4,
-        "price_incl_tax": 5,
-        "default": true,
+        "price_incl_tax": 12.90,
+        "default": false,
         "offline": true
       }
     ]
@@ -360,27 +360,27 @@
       "pt-BR",
       "pl-PL"
     ],
-    "defaultLocale": "en-US",
-    "currencyCode": "USD",
-    "currencySign": "$",
+    "defaultLocale": "pl-PL",
+    "currencyCode": "PLN",
+    "currencySign": "PLN ",
     "dateFormat": "HH:mm D/M/YYYY",
-    "fullCountryName": "United States",
-    "fullLanguageName": "English",
-    "bundleAllStoreviewLanguages": true
+    "fullCountryName": "Polska",
+    "fullLanguageName": "Polski",
+    "bundleAllStoreviewLanguages": false
   },
   "mailchimp": {
-    "endpoint": "http://localhost:8080/api/ext/mailchimp-subscribe/subscribe"
+    "endpoint": "https://dwshop.pl/api/ext/mailchimp-subscribe/subscribe"
   },
   "theme": "dwshop-theme",
   "analytics": {
-    "id": false
+    "id": "UA-126804415-1" 
   },
   "stripe": {
     "api_key": "my_example_api_key"
   },
   "cms": {
-    "endpoint": "http://localhost:8080/api/ext/cms-data/cms{{type}}/{{cmsId}}",
-    "endpointIdentifier": "http://localhost:8080/api/ext/cms-data/cms{{type}}Identifier/{{cmsIdentifier}}/storeId/{{storeId}}"
+    "endpoint": "https://dwshop.pl/api/ext/cms-data/cms{{type}}/{{cmsId}}",
+    "endpointIdentifier": "https://dwshop.pl/api/ext/cms-data/cms{{type}}Identifier/{{cmsIdentifier}}/storeId/{{storeId}}"
   },
   "usePriceTiers": false
 }
