@@ -346,18 +346,9 @@
     ]
   },
   "i18n": {
-    "defaultCountry": "US",
-    "defaultLanguage": "EN",
+    "defaultCountry": "PL",
+    "defaultLanguage": "PL",
     "availableLocale": [
-      "en-US",
-      "de-DE",
-      "fr-FR",
-      "es-ES",
-      "nl-NL",
-      "jp-JP",
-      "ru-RU",
-      "it-IT",
-      "pt-BR",
       "pl-PL"
     ],
     "defaultLocale": "pl-PL",
@@ -374,9 +365,6 @@
   "theme": "dwshop-theme",
   "analytics": {
     "id": "UA-126804415-1" 
-  },
-  "stripe": {
-    "api_key": "my_example_api_key"
   },
   "cms": {
     "endpoint": "https://dwshop.pl/api/ext/cms-data/cms{{type}}/{{cmsId}}",
