@@ -62,6 +62,7 @@
     "reflect-metadata": "^0.1.12",
     "scrollreveal": "^3.3.6",
     "url-parse": "^1.2.0",
+    "vsf-external-checkout": "^1.0.6",
     "vsf-payment-stripe": "^1.0.0",
     "vue": "^2.5.17",
     "vue-analytics": "^5.8.0",

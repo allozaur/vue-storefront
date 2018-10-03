@@ -8504,6 +8504,10 @@ void-elements@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
 
+vsf-external-checkout@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vsf-external-checkout/-/vsf-external-checkout-1.0.6.tgz#144363e93eb5f91d17dbc23ee0b24d9628a37b5d"
+
 vsf-payment-stripe@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vsf-payment-stripe/-/vsf-payment-stripe-1.0.0.tgz#2657f17a993cd0cbb2dc2f4f2d8f09e5f95670b5"

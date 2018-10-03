@@ -366,6 +366,9 @@
   "analytics": {
     "id": "UA-126804415-1" 
   },
+  "externalCheckout": {
+    "cmsUrl" : "https://checkout.dwshop.pl"
+  },
   "cms": {
     "endpoint": "https://dwshop.pl/api/ext/cms-data/cms{{type}}/{{cmsId}}",
     "endpointIdentifier": "https://dwshop.pl/api/ext/cms-data/cms{{type}}Identifier/{{cmsIdentifier}}/storeId/{{storeId}}"

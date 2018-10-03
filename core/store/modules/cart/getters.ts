@@ -28,7 +28,7 @@ const getters: GetterTree<CartState, RootState> = {
           {
             code: 'shipping',
             title: i18n.t(shipping.method_title),
-            value: shipping.price_incl_tax
+            value: shipping.price_incl_tax 
           },
           {
             code: 'grand_total',
