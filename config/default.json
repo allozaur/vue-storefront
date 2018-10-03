@@ -329,7 +329,7 @@
   "tax": {
     "defaultCountry": "PL",
     "defaultRegion": "",
-    "sourcePriceIncludesTax": true,
+    "sourcePriceIncludesTax": false,
     "calculateServerSide": true
   },
   "shipping": {
