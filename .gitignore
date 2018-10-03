@@ -6,6 +6,7 @@ npm-debug.log
 .idea/
 var
 build/config.json
+config/local.json
 core/build/config.json
 theme.js
 desktop.ini
