@@ -10,7 +10,7 @@ export default {
     return {
       products: [],
       search: '',
-      size: 18,
+      size: 999,
       start: 0,
       placeholder: i18n.t('Type what you are looking for...'),
       emptyResults: false,
