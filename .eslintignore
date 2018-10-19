@@ -5,4 +5,5 @@ src/themes/dwshop-theme/pages/TermsConditions.vue
 src/themes/dwshop-theme/pages/Category.vue
 src/themes/dwshop-theme/components/core/blocks/Switcher/Language.vue
 src/themes/dwshop-theme/components/theme/blocks/Collection/Collection.vue
+src/themes/dwshop-theme/components/core/blocks/MainSlider/MainSlider.vue
 src/themes/dwshop-theme/pages/Home.vue
