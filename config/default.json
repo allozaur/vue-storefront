@@ -137,6 +137,7 @@
         "image",
         "sale",
         "new",
+        "stock",
         "url_key",
         "status",
         "tier_prices"
@@ -181,6 +182,7 @@
         "product_links",
         "url_key",
         "status",
+        "stock",
         "tier_prices"
       ],
       "excludeFields": [
@@ -241,7 +243,7 @@
     "configurableChildrenStockPrefetchDynamic": false,
     "configurableChildrenStockPrefetchStaticPrefetchCount": 8,
     "filterUnavailableVariants": false,
-    "listOutOfStockProducts": false,
+    "listOutOfStockProducts": true,
     "preventConfigurableChildrenDirectAccess": true,
     "alwaysSyncPlatformPricesOver": false,
     "clearPricesBeforePlatformSync": false,
@@ -364,7 +366,7 @@
   },
   "theme": "dwshop-theme",
   "analytics": {
-    "id": "UA-126804415-1" 
+    "id": "UA-126804415-1"
   },
   "externalCheckout": {
     "cmsUrl" : "https://checkout.dwshop.pl"
